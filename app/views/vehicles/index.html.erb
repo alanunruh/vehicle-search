@@ -1,0 +1,26 @@
+<div class="vehicle-box col-10 offset-1">
+  <h1 class="text-center">Vehicle List</h1>
+  <br/>
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Make</th>
+        <th scope="col">Model</th>
+        <th scope="col">Year</th>
+        <th scope="col">VIN</th>
+        <th scope="col">Fuel Efficiency</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @vehicles.each do |vehicle| %>
+      <tr>
+        <td><%= vehicle.make %></td>
+        <td><%= vehicle.model %></td>
+        <td><%= vehicle.year %></td>
+        <td><%= vehicle.vin %></td>
+        <td><%= vehicle.fuel_efficiency %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
