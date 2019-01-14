@@ -1,9 +1,9 @@
-redis = Hash.new{|h, k| h[k] = Hash.new(url: ENV["REDIS_URL"].presence || "redis://localhost:6379")}
+redis = Hash.new { |h, k| h[k] = Hash.new(url: ENV['REDIS_URL']) }
 
-# redis["production"] = {url: ENV["REDIS_URL"].presence || "redis://localhost:6390"}
+redis['production'] = { url: ENV['REDIS_URL'] }
 # redis["staging"] = {url: ENV["REDIS_URL"].presence || "redis://localhost:6390"}
-redis["development"] = {url: "redis://localhost:6390"}
-redis["test"] = {url: "redis://localhost:6391"}
+redis['development'] = { url: 'redis://localhost:6390' }
+redis['test'] = { url: 'redis://localhost:6391' }
 
 # # Parse the env-specific url
 # uri = URI.parse(redis.dig(Rails.env, :url))
