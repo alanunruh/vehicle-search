@@ -1,0 +1,33 @@
+@import "bootstrap";
+
+.background {
+  background: image_url('vehicle-interior.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box {
+  background: #fff;
+  margin-top: 250px;
+  padding: 10px;
+}
+
+.vehicle-box {
+  background: #fff;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.form {
+  -moz-box-shadow: 1px, 1px, 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #e4e4e4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
