@@ -29,6 +29,7 @@ gem 'faraday'
 gem 'simple_form'
 gem 'factory_bot_rails'
 gem 'faker'
+gem 'webmock'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
