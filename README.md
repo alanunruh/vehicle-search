@@ -1,24 +1,27 @@
-# README
+# Vehicle Search
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Vehicle Search is a Rails app that lets users keep track of how fuel efficient vehicles in thier fleet are performing. It's integrated with the Fleetio API, so users must be account holders with Fleetio to acess the API. This is very much a prototype but is functional enough to get the job done!
 
-Things you may want to cover:
+*Technical description: A dynamic, Ruby on Rails web application that fetches data using the Fleetio API to dynamically transform data and calculate a vehicles fuel efficiency.*
 
-* Ruby version
+## Features
 
-* System dependencies
+* API Integration for data exchange.
 
-* Configuration
+* JSON data manipulation.
 
-* Database creation
+* Redis for in-memory data structure storage.
 
-* Database initialization
+* Sidekiq integration for fully-featured background processing.
 
-* How to run the test suite
+* PostgreSQL for database queries.
 
-* Services (job queues, cache servers, search engines, etc.)
+* Twitter Bootstrap for CSS and components.
 
-* Deployment instructions
+* Rspec for tests, tests, and more tests.
 
-* ...
+* Heroku and GitHub for deployment.
+
+## View It Live
+
+https://vehicle-search-alan.herokuapp.com/
