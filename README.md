@@ -21,7 +21,3 @@ Vehicle Search is a Rails app that lets users keep track of how fuel efficient v
 * Rspec for tests, tests, and more tests.
 
 * Heroku and GitHub for deployment.
-
-## View It Live
-
-https://vehicle-search-alan.herokuapp.com/
